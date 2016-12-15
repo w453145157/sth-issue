@@ -1,0 +1,249 @@
+@charset "UTF-8";.sidebar,.sidebar a,aside a {
+    color: #fff
+}
+
+.title,footer p {
+    text-align: center
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+#go-top{
+    padding:15px 10px;
+    background: #BCBFBF;
+    color:#F22408;
+    border-radius: 18px;
+}
+#go-top:hover{
+    cursor:pointer;
+}
+body {
+    font-family: 'Helvetica Neue',Helvetica,'Lucida Grande',Arial,'Hiragino Sans GB',微软雅黑,'WenQuanYi Micro Hei',STHeiti,SimSun,sans-serif;
+    min-width: 1080px;
+    background: #eff6fa;
+}
+
+.sidebar{
+    /*background: #2989F0;*/
+    background: #aaa;
+    height: 100%;
+}
+
+ul,li {
+    list-style: none
+}
+a {
+    text-decoration: none
+}
+.container {
+    position: relative;
+    margin: 10px auto;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    width: 1000px;
+    overflow: hidden;
+    -webkit-border-radius: 4px;
+    border-radius: 4px
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 300px;
+    padding: 15px 15px;
+    line-height: 1.5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: -10000px
+}
+.main,.skill,.skill-name,h4 {
+    position: relative
+}
+
+.title {
+    margin: 25px 0 20px
+}
+
+.title img{
+    display:block;
+    margin: 0 auto;
+    padding: 3px;
+    height: 150px;
+    width: 120px;
+    background: #fff;
+    border-radius: 50%;
+    border-radius: 50%;
+}
+.sth-information li{
+    padding-top: :20px;
+}
+.sth-information dt{
+    color:#5dc;
+    font-size:18px;
+    line-height: 40px;
+}
+.sth-information dd{
+    padding-left:20px;
+    font-size:15px;
+    line-height: 25px;
+}
+.about-me>dd>a:hover{
+    color:#E3F712;
+}
+h1 {
+    font-size: 28px;
+    font-weight: 400
+}
+
+h2 {
+    font-size: 14px
+}
+.skill-icon {
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+.skill-name {
+    width: 80px;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+.skill-percentage{
+    height: 17px;
+    width: 100px;
+    background: #ccc;
+    display: inline-block;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    margin-top: 3px;
+}
+
+.degree{
+    height: 17px;
+    background: #fff;
+    -webkit-border-radius: 20px 0 0 20px;
+    border-radius: 20px 0 0 20px
+}
+
+
+.main {
+    left: 300px;
+    top:0;
+    width: 670px;
+    padding: 15px 20px 10000px;
+    background: #fff;
+    margin-bottom: -10000px;
+}
+.main .content dt{
+    font-size:30px;
+    color:#08EAB7;
+    margin-top:20px;
+}
+.border{
+    border-bottom: 1px solid #08EAB7;
+}
+.main .content h3{
+    text-indent: 1em;
+    color:#ccc;
+    padding: 10px;
+}
+
+.circle {
+    height: 14px;
+    width: 14px;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    background: #045bb2;
+    position: relative;
+    float: left;
+    left: -8px;
+    top: 0px;
+}
+.wrap>li{
+    text-indent: 1em;
+}
+.wrap{
+    border-left: 2px solid #045bb2;
+    margin-left: 15px
+}
+.wrap img {
+    width:300px;
+    height:200px;
+    display: block;
+    margin:20px auto;
+}
+.skills li{
+    height:30px;
+    line-height: 30px;
+}
+.wrap h4{
+    margin-bottom: 10px;
+}
+.wrap p{
+    margin:0 0 20px 15px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.source-wrap .source-view,.source-demo{
+    margin-bottom: 20px;
+    display: inline-block;
+    width:110px;
+    height: 25px;
+    line-height: 25px;
+    background: #08EAB7;
+    border-radius: 12.5px;
+}
+.source-wrap .source-view:hover,.source-demo:hover{
+    color:#fff;
+    cursor: pointer;
+}
+.source-wrap{
+    position: relative;
+    left:200px;
+}
+.efe .task4img img {
+    height: 97px;
+    width: inherit
+}
+
+footer {
+    margin: 30px 0 20px
+}
+
+footer p {
+    font-size: 14px
+}
+
+.throb {
+    -webkit-animation: throb 1.33s ease-in-out infinite;
+    animation: throb 1.33s ease-in-out infinite
+}
+
+@-webkit-keyframes throb {
+    0%,100% {
+        -webkit-transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(.8)
+    }
+}
+
+@keyframes throb {
+    0%,100% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(.8);
+        transform: scale(.8)
+    }
+}
